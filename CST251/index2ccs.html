@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CatPhotoApp</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+
+
+    <link href="catappstyle.css" rel="stylesheet">
+    
+    <style>
+      body {
+          background-image: url(https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026__480.jpg);
+          border:10px;
+          padding: 20px;
+          background-repeat:no-repeat;
+          background-size:cover; 
+        }
+          
+
+       h1 {
+          background-color: #050a51;
+          color: floralwhite;
+          text-align: center;
+          padding: 15px;
+          border-bottom:15px solid red;
+          border-top:15px solid red ;
+          margin:auto; /*center block elements*/
+          /*height*/
+          overflow:scroll;
+          font-family: 'Combo', cursive;
+
+         } 
+
+      
+        img{ 
+        border:4px solid #050a52;
+        padding:0px 0px;
+        border-radius:50px;
+        max width:100%;
+        height: auto;
+        }
+      
+      main {
+          background-color:rgb(5, 10, 82,.3);
+          padding: 20px;
+          width: 75%;
+          margin: 0 auto; /*centers block element*/
+          font-size:1.5rem;
+          font-family: 'Combo', cursive;
+
+        }
+
+      a {
+          color: yellow;
+        }
+
+      footer{font-family: 'Combo', cursive;
+          background-color: blue;
+        color: pink;}
+
+      h2{
+          color: darkblue ;
+         }
+      h3{
+          color: darkblue;
+         }
+      button{ color: darkred; 
+         }
+      label{ color:darkblue;
+        }
+
+    </style>
+      
+
+  </head>
+
+  <body>
+    <h1>CatPhotoApp</h1>
+    <main>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cats Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+       Sophia Chaisson 2022 No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
