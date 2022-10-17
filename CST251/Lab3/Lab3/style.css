@@ -1,0 +1,243 @@
+Body {
+	
+background: lightblue;
+}
+
+
+h1{
+	background-color:tan;
+	color:black;
+	font-size:180%;
+	padding:25px;
+	text-align:center;
+	border-radius: 25px;
+	
+}
+.responsive{
+	width:90%;
+	height:auto;
+	
+}
+
+h2 {
+	background-color: tan;
+	left:20%;
+	right:20%;
+	height:auto;
+	border-radius: 25px;
+	
+	
+}
+nav {
+	position:fixed;
+	top:0;
+	left:0;
+	overflow: hidden;
+	background-color:lightblue;
+	
+}
+main{ 
+	position: absolute;
+	top:0;
+	left: 120px;
+	text-align: center;
+}
+
+nav ul li{ 
+	list-style:none;
+
+}
+nav{
+		positon: absolute;
+		top:5px;
+		left:0;
+		width:100%;
+		height:150px;
+		overflow:scroll;
+		border:1px solid blue;
+	
+}
+	nav::before{
+		content:"Navigation Menu";
+		background-color:grey;
+		text-align: center;
+		width: 100%;
+		font-size:1.5em;
+		display: block;
+		
+		
+	}
+	a:hover{
+	
+
+		color: red;
+	}
+	
+	main{ 
+	position: absolute;
+	top:180px;
+	left:0;
+}
+
+@media(max-width:1024px){
+	
+	Body {
+	
+background: lightblue;
+}
+
+
+h1{
+	background-color:tan;
+	color:black;
+	font-size:180%;
+	padding:25px;
+	text-align:center;
+
+}
+
+h2 {
+	background-color:tan;
+	left:20%;
+	right:20%;
+	height: auto;
+	border-radius: 25px;
+	
+}
+nav {
+	position:fixed;
+	top:0;
+	left:0;
+	
+}
+main{ 
+	position: absolute;
+	top:0;
+	left: 120px;
+	text-align: center;
+}
+
+nav ul li{ 
+	list-style:none;
+
+}
+	nav{
+		positon: absolute;
+		top:5px;
+		left:0;
+		width:100%;
+		height:150px;
+		overflow:scroll;
+		border:1px solid blue;
+		
+}
+	nav::before{
+		content:"Navigation Menu";
+		background-color:grey;
+		text-align: center;
+		width: 100%;
+		font-size:1.5em;
+		display: block
+		
+	}
+	
+	main{ 
+	position: absolute;
+	top:180px;
+	left:0;
+}
+	a:hover{
+		color: red;
+	}
+
+@media( max-width:768px){
+Body {
+	
+background: lightblue;
+}
+
+
+h1{
+	background-color:tan;
+	color:black;
+	font-size:180%;
+	padding:25px;
+	text-align:center;
+	border-radius: 25px;
+}
+
+h2 {
+	background-color:tan;
+	left: 20%;
+	right:20%;
+	height:auto;
+	border-radius: 25px;
+	
+}
+
+main{ 
+	position:absolute;
+	top:0;
+	left:120px;
+	text-align:center;
+}
+
+nav ul li{ 
+	list-style:none;
+
+}
+	a:hover{
+		color:yellow;
+	}
+}
+@media(max-width:480){ 
+	Body {
+	
+background: lightblue;
+}
+
+
+h1{
+	background-color:tan;
+	color:black;
+	font-size:180%;
+	padding:25px;
+	text-align:center;
+
+}
+
+h2 {
+	background-color: white;
+	left: 20%;
+	right:20%;
+	height:auto;
+	border-radius: 25px;
+	
+	
+}	
+main {
+	position:absolute;
+	top:0;
+	width:150px;
+	text-align:center;
+	
+	
+	}	
+
+	
+nav{ 
+	position:fixed;
+	top:0;
+	left:0;
+	width:120px;
+}
+
+nav ul li{ 
+	list-style:none;
+
+}
+	a:hover{
+		color: purple;
+	}
+	}
+
