@@ -1,0 +1,47 @@
+
+  header { 
+    text-align: center;
+      }
+  body {
+    font-family: "roboto", anarchy, arial, verdana;
+    color: black;
+    background-color:light purple;
+    padding: 25px;
+    fontszie:120%;
+    
+       }
+  p {
+    display:block;
+    text-align: center;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline: 0px;
+    margin-inline-end:0px;
+     }
+
+  img{ 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0
+    }
+  
+  ul {
+    display: inline-block;
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+  h2{ 
+    text-align: center;
+      }
+
+  h3 { 
+    text-align:center;
+    }
+    #tribute-info{
+      padding:0;
+    }

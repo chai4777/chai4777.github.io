@@ -1,0 +1,110 @@
+body { 
+	background-color: tan;
+	line-height: 1.5em;
+
+}
+
+#navbar {
+	postion:absolute;
+	min-width: 290px;
+	top: 0px;
+	left:0px;
+	width: 100px;
+	height: 100%;
+	background-color:ivory;
+	color: black;
+}
+
+
+header{ 
+	color: saddlebrown;
+	margin: 10px;
+	text-align: left;
+	font-size: 1.8em;
+	font-weight: thin;
+}
+
+#main-doc{
+	text-align: left;
+	margin: 0px;
+	position: absolute;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+
+#navbar ul{
+	height: 85%;
+	padding: 0;
+	
+}
+#navbar li{
+	color: black;
+	border-top: 1px solid;
+	postion:relative;
+	width: 100%;
+	
+}
+#navbar a { 
+	display:block;
+	padding: 10px;
+	color: black;
+}
+
+code{
+	display: block;
+	text-align: left;
+	postion: relative;
+	padding: 15px;
+	margin: 10px;
+	border-radius:5px;
+	background-color: navajowhite;
+}
+
+div{
+	postion: sticky;
+	top: 0px;
+	border: #412900;
+}
+@media  (max-width: 780px) {
+  
+  #navbar ul {
+  
+    height: 205px;
+    
+  }
+
+  #navbar {
+    background-color:ivory;
+    position:absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 270px;
+    border: none;
+    z-index: 1;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+	
+	
+	
